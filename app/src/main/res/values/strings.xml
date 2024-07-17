@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">appT1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragmento_3">Fragmento 3</string>
+    <string name="fragmento_2">Fragmento 2</string>
+    <string name="msg_alarme">Selecione o Alarme</string>
+    <string name="tocar_alarme">Tocar Alarme</string>
+    <string name="fragmento_1">Fragmento 1</string>
+</resources>

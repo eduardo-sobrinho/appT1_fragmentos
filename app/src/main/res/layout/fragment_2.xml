@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frag2_bgColor"
+    tools:context=".Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtFrag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/fragmento_2"
+            android:textColor="#000000"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/txtOptions"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/msg_alarme"
+            android:textSize="10pt" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="240dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnSom"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/tocar_alarme" />
+    </LinearLayout>
+
+</FrameLayout>
